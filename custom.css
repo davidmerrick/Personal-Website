@@ -1,0 +1,98 @@
+/* Custom amazingness by David Merrick. Copying this file means admitting that
+ * you're not interested in learning, an excellent way to ensure your
+ * own mediocrity. People who behave this way never amount to anything in life.
+ * Facebook Blue: #3B5998
+*/
+/*---:[ Reset ]:---*/
+.custom .menu, .menu a, .custom #header, .custom .post, .custom .teasers_box, .custom #footer, .custom #footer a, .custom #footer a:active, .custom #archive_info, .custom .prev_next, .custom #comment_list, .custom #comment_list dd, .custom #commentform, .custom #sidebar_1, .custom #sidebar_2, .custom #comment_list dt.comment, .custom #comment_list dd.comment, .custom #comment_list dl .bypostauthor .format_text, .custom #trackback_list {border-bottom: 0px;border-top: 0px;border-right: 0px;border-left: 0px;}
+.custom #content_box, .custom #column_wrap {background: none;}
+
+/* remove "Comments Closed" on posts and pages */
+.custom .comments_closed p {display: none;}
+
+/*---:[ Page ]:---*/
+.custom #page{padding-bottom:0;padding-top:0;}
+.custom .full_width .page{padding:0;width:94.5em;}
+
+/*---:[Header]:---*/
+.custom #header_area {background:#3B5998;height:75px;}
+.custom #header_area .page {background:transparent;padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;}
+.custom #header{height:75px;margin-bottom:0;border-bottom:0;border:none;padding-top:0;padding-bottom:0;overflow:hidden;}
+.custom #logo{display:block;height:100%;float:left;margin-right:25px;}
+.custom #logo a img{height:60px;margin-top:15px;}
+
+/*---:[ nav styles ]:---*/
+.custom #nav_area{padding-top:42px;float:left;margin-right:10px;}
+.custom .menu {height:33px;background:url('images/nav-menu.gif') 0 0 no-repeat; z-index: 10; }
+.custom .menu li{width: 80px;height:33px;padding: 0 4px 0 0;text-indent:-9999px;float:left;}
+.custom .menu a, .menu a:hover {display: block;width: 80px;height:33px;padding:0;background: transparent url('images/nav-menu.gif') no-repeat; outline: none; }
+.custom .menu .current a, .menu .current a:hover{background:transparent url('images/nav-menu.gif')no-repeat;cursor:default;}
+.custom .menu .tab-home a{background-position: 0 0;}
+.custom .menu .tab-home a:hover, .home .menu .tab-home a, .home .menu .tab-home a:hover{background-position:0 -33px;}
+.custom .menu .tab-1 a {background-position: -84px 0;}
+.custom .menu .tab-1 a:hover, .archives .menu .tab-1 a, .archives .menu .tab-1 a:hover{background-position:-84px -33px;}
+.custom .menu .tab-2 a {background-position: -168px 0;}
+.custom .menu .tab-2 a:hover, .about .menu .tab-2 a{background-position:-168px -33px; }
+
+/*---:[ Search Bar ]:---*/
+.custom #search-bar{padding-top:50px;float:left;width:160px;}
+.custom #cse-search-box{display:block;}
+.custom #cse-search-box #q{height:19px;padding:0px;border:0px;width:120px;float:left;background:url("images/searchfield_repeat.png") repeat-x scroll center top transparent;!important}
+.custom #cse-search-box .left{display:block;width:20px;height:19px;float:left;background:url('images/searchfield_leftcap.png') no-repeat scroll left top transparent;}
+.custom #cse-search-box .right{display:block;width:20px;height:19px;background:url('images/searchfield_rightcap.png') no-repeat scroll left top transparent;float:left;}
+
+/*---:[ SERP ]:---*/
+.search .headline_area{display:none;}
+.custom #cse-search-results iframe{width:100%;}
+
+/*---:[ TweetMeme Button ]:---*/
+.about .tweetmeme_button iframe{display:none;}
+.archives .tweetmeme_button iframe{display:none;}
+.search .tweetmeme_button iframe{display:none;}
+
+/*---:[ Content Elements ]:---*/
+.custom #content_area{background:none no-repeat scroll right top gray;}
+.custom #content{padding-left:0;border-right:0;width:63em;}
+.custom #content_box{min-height:100%;padding-bottom:100px;}
+
+/*---:[ Date Box ]:---*/
+.custom .datebox{width:50px;height:50px;margin-right:10px;float:left;text-align:center;background:#3B5998;}
+.custom .datebox .month{text-transform:uppercase;font-size:10px;font-style:normal;color:white;padding:5px 0 0;letter-spacing:2px;}
+.custom .datebox .day{font-size:25px;font-weight:bold;color:white;}
+/*---:[ Posts ]:---*/
+.custom .post_box, .teasers_box{border:none;}
+.custom .to_comments{float:right;height:36px;width:51px;margin-left:10px;background-image:url('images/bg_comment_count2.png');}
+.custom .to_comments a span{display:block;height:100%;width:100%;text-align:center;padding-top:15%;font-size:1.5em;font-weight:bold;color:black;}
+/*Drop Caps: big first letter*/
+.custom .entry-content p:first-child:first-letter{font-size:3.571em;line-height:0.76em;padding:0.04em 0.12em 0 0;color:#888;float:left;}
+/*blockquotes*/
+.custom .entry-content blockquote{background:#DCF5F5;padding:1em 2em .5em 2em;border-width:0 0 0 0.733em;border-style:solid;border-color:#8ADEDE;margin-left:0;margin-bottom:1em;}
+.custom .entry-content blockquote p:first-child:first-letter{font-size:1em;float:none;color:#666666}
+/*Comments*/
+.custom #disqus_thread{margin-left:.5em;}
+
+/*---:[Sidebars]:---*/
+.custom #sidebars{width:25em;overflow:hidden;}
+.custom .sidebar{float:right;}
+.custom .sidebar ul.sidebar_list{padding-left:0;}
+.custom #sidebar_1{border-left:0;}
+
+/*---:[ Widgets ]:---*/
+.widget-title{height:30px;}
+/*---:[ Subscribe ]:---*/
+#subscribe-widget{display:block;margin:0 -1em 0 0;overflow:hidden;background:#EEB27F;}
+#subscribe-widget .widget-body{padding:0 0.5em;}
+/*---:[ Feedburner ]:---*/
+#feedburner-cache{width:88px;height:26px;background-image:url('images/david-merrick-feedburner.gif');margin-left:auto;margin-right:auto;}
+
+/*---:[ Footer ]:---*/
+.custom #footer{border:none; background:inherit;}
+.custom #footer_area{clear:both;border:none;height:100px;background:#3B5998;position:relative;bottom:0;}
+.custom #footer_area .page{background:inherit;}
+
+/*---:[ Labs iFrames ]:---*/
+/*iframe.labs{border:0;width:100%;height:100%;}*/
+iframe.labs{border:0;width:100%;}
+
+/*---:[404 Page]:---*/
+.fourohfour .to_comments{display:none;}
